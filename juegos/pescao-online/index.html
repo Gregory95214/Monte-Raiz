@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#071e31">
+  <meta name="description" content="Pescao Online: descubre las mentiras de tus amigos. Juega en tiempo real con 4 a 10 personas, cada una desde su celular.">
+  <meta property="og:title" content="Pescao Online · ¿Quién está mintiendo?">
+  <meta property="og:description" content="Un juego de mentiras, datos locos y peces sospechosos para 4 a 10 amigos. Crea una sala y comparte el código.">
+  <meta property="og:type" content="website">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="icon" type="image/svg+xml" href="assets/fish.svg">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/styles.css">
+  <title>Pescao Online · Juego de mentiras</title>
+</head>
+<body>
+  <div class="ocean-backdrop" aria-hidden="true">
+    <div class="bubble b1"></div><div class="bubble b2"></div><div class="bubble b3"></div><div class="bubble b4"></div>
+    <div class="glow"></div>
+  </div>
+  <div id="app" class="app-root">
+    <div class="boot"><div class="fish-large">🐡</div><strong>Preparando el océano...</strong></div>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="https://cdn.jsdelivr.net/npm/peerjs@1.5.5/dist/peerjs.min.js" defer></script>
+  <script type="module" src="assets/app.mjs"></script>
+</body>
+</html>
